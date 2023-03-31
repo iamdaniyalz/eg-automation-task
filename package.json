@@ -1,0 +1,14 @@
+{
+  "name": "easygenerator-automation",
+  "version": "1.0.0",
+  "description": "Automated tests for the easygenerator test website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniyal Zulfiqar",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.9.0"
+  }
+}
