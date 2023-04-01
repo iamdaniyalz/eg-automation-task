@@ -1,19 +1,21 @@
 {
-  "name": "easygenerator-automation",
-  "version": "1.0.0",
-  "description": "Automated tests for the easygenerator test website",
-  "main": "index.js",
-  "scripts": {
-    "startApp": "cd App && node serveApp.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Daniyal Zulfiqar",
-  "license": "ISC",
-  "dependencies": {
-    "cypress": "^12.9.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.3"
-  },
-  "type": "module"
+	"name": "easygenerator-automation",
+	"version": "1.0.0",
+	"description": "Automated tests for the easygenerator test website",
+	"main": "index.js",
+	"scripts": {
+		"startApp": "cd App && node serveApp.js",
+		"cypress:ui": "cypress open",
+		"cypress:headless": "cypress run --headless --browser chrome"
+	},
+	"author": "Daniyal Zulfiqar",
+	"license": "ISC",
+	"dependencies": {
+		"cypress": "^12.9.0"
+	},
+	"devDependencies": {
+		"prettier": "2.8.7",
+		"typescript": "^5.0.3"
+	},
+	"type": "module"
 }
