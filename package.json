@@ -6,7 +6,9 @@
 	"scripts": {
 		"startApp": "cd App && node serveApp.js",
 		"cypress:ui": "cypress open",
-		"cypress:headless": "cypress run --headless --browser chrome"
+		"cypress:headless": "cypress run --headless --browser chrome",
+		"prettier:check": "npx prettier --check .",
+		"prettier:apply": "npx prettier --write ."
 	},
 	"author": "Daniyal Zulfiqar",
 	"license": "ISC",
