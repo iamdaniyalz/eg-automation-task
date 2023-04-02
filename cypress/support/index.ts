@@ -1,4 +1,6 @@
 // cypress/support/index.ts
+import "./commands";
+
 declare global {
 	namespace Cypress {
 		interface Chainable {
@@ -7,6 +9,7 @@ declare global {
 			 * @example cy.dataCy('greeting')
 			 */
 			dataCy(value: string): Chainable<JQuery<HTMLElement>>;
+			iframe(value: string): Chainable<Element>;
 		}
 	}
 }

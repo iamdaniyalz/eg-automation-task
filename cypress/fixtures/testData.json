@@ -1,0 +1,8 @@
+{
+	"egWebsite": "https://www.easygenerator.com/",
+	"dropdownOption": "Option2",
+	"dropdownValue": "option2",
+	"alertFile": "cypress/fixtures/alert-text.txt",
+	"alertText": "Hello Hello from Easygenerator, share this practice page and share your knowledge",
+	"confirmAlert": "Hello Hello from Easygenerator, Are you sure you want to confirm?"
+}
