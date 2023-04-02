@@ -1,4 +1,4 @@
-# Easy Generator Test Automation Assignment
+# Easy Generator Test Automation Assignment [![ci](https://github.com/iamdaniyalz/eg-automation-task/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/iamdaniyalz/eg-automation-task/actions/workflows/ci.yml)
 
 
 ### Steps to perform in order to run the app and execute the test script.
