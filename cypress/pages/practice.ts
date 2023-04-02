@@ -18,48 +18,46 @@ class Practice {
 		onHoverDropdownOptions: () => cy.get(".hover-container .hovered a"),
 		socialMediaLinks: () => cy.get("#gf-BIG li a")
 	};
-	actions = {
-		clickOnEgLogo() {
-			return this.elements.egLogo().click();
-		},
 
-		clickOnHomeButton() {
-			return this.elements.homeButton().click();
-		},
-
-		selectOptionFromDropdown(option: string) {
-			return this.elements.dropdown().select(option);
-		},
-
-		enterName(name: string) {
-			return this.elements.nameField().type(name);
-		},
-
-		clickAlert() {
-			return this.elements.alertButton().click();
-		},
-
-		clickConfirm() {
-			return this.elements.confirmButton().click();
-		},
-
-		inputText(text: string) {
-			return this.elements.textBox().type(text);
-		},
-
-		clickHideTextBoxButton() {
-			return this.elements.hideTextBoxButton().click();
-		},
-
-		clickShowTextBoxButton() {
-			return this.elements.showTextBoxButton().click();
-		},
-
-		hoverMouseOverButton() {
-			return this.elements.mouseHoverButton().trigger("mouseover");
-		}
+	clickOnEgLogo() {
+		return this.elements.egLogo().click();
 	}
 
+	clickOnHomeButton() {
+		return this.elements.homeButton().click();
+	}
+
+	selectOptionFromDropdown(option: string) {
+		return this.elements.dropdown().select(option);
+	}
+
+	enterName(name: string) {
+		return this.elements.nameField().type(name);
+	}
+
+	clickAlert() {
+		return this.elements.alertButton().click();
+	}
+
+	clickConfirm() {
+		return this.elements.confirmButton().click();
+	}
+
+	inputText(text: string) {
+		return this.elements.textBox().type(text);
+	}
+
+	clickHideTextBoxButton() {
+		return this.elements.hideTextBoxButton().click();
+	}
+
+	clickShowTextBoxButton() {
+		return this.elements.showTextBoxButton().click();
+	}
+
+	hoverMouseOverButton() {
+		return this.elements.mouseHoverButton().trigger("mouseover");
+	}
 }
 
 export { Practice };
