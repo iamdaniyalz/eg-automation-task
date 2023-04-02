@@ -5,11 +5,11 @@
 
 1. Clone the repo to your machine.
 2. Open Terminal
-...
+
     npm install
     npm start
     > This will run the app on http://localhost:1025
-...
+
 
 **Run Cypress in UI mode**
 
