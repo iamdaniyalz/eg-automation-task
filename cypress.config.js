@@ -15,6 +15,6 @@ export default defineConfig({
 			});
 		},
 		baseUrl: "http://localhost:1025/",
-		chromeWebSecurity: false
+		chromeWebSecurity: false,
 	}
 });
