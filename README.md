@@ -30,6 +30,8 @@
 5. Injected data-test-id in the task.html to create a better selector for topbar/header
 
     [data-test-id='eg-practice-page-topbar']
+6. Setup a CI pipeline with GitHub Actions
+[![ci](https://github.com/iamdaniyalz/eg-automation-task/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/iamdaniyalz/eg-automation-task/actions/workflows/ci.yml)
 
 ### Results
 ![image](https://user-images.githubusercontent.com/52025650/229377012-fde9f4af-9705-45d1-8872-6dd6f8965ec0.png)
