@@ -4,7 +4,7 @@
 	"description": "Automated tests for the easygenerator test website",
 	"main": "index.js",
 	"scripts": {
-		"startApp": "cd App && node serveApp.js",
+		"start": "cd App && node startApp.js",
 		"cypress:ui": "cypress open",
 		"cypress:headless": "cypress run --headless --browser chrome",
 		"prettier:check": "npx prettier --check .",

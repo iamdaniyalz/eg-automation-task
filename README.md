@@ -8,7 +8,7 @@
 
     npm install
 
-    npm run startApp
+    npm run start
     > This will run the app on http://127.0.0.1:1025
 
 
