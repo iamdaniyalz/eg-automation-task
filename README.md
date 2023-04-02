@@ -1,4 +1,4 @@
-# Easy Generator Test Automation Assignment#
+# Easy Generator Test Automation Assignment
 
 
 ### Steps to perform in order to run the app and execute the test script.
