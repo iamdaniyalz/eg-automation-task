@@ -7,7 +7,7 @@
 2. Open Terminal
 ...
     npm install
-    npm run start
+    npm start
     > This will run the app on http://localhost:1025
 ...
 
