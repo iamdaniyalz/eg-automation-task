@@ -16,7 +16,7 @@ class Practice {
 		mouseHoverButton: () => cy.get(".hover-container"),
 		onHoverDropdown: () => cy.get(".hover-container .hovered"),
 		onHoverDropdownOptions: () => cy.get(".hover-container .hovered a"),
-		socialMediaLinks: () => cy.get("#gf-BIG li a")
+		socialMediaLinks: () => cy.get("#gf-BIG li a", { timeout: 10000 })
 	};
 
 	clickOnEgLogo() {
