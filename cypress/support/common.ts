@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
 const appiFrame = "#courses-iframe";
-const tryNowButton = ".detail__info .link";
+const tryNowButton = ".cta [href='https://live.easygenerator.com/signup']";
 
 class iFrame {
 	getIframe() {

@@ -7,7 +7,7 @@ const iframe = new iFrame();
 let mouseHoverOptions = ["Top", "Reload"];
 let socialMediaLinks = [
 	"https://www.facebook.com/easygenerator/",
-	"https://twitter.com/easygenerator",
+	"https://x.com/i/flow/login?redirect_after_login=%2Feasygenerator",
 	"https://www.youtube.com/user/easygenerator"
 ];
 
@@ -165,7 +165,7 @@ describe("iFrame", () => {
 		cy.intercept("GET", "**/auth-pages-settings", { fixture: "mockAPI.json", statusCode: 404 }).as(
 			"authPagesAPI"
 		);
-		iframe.getIframe().find(iframe.tryNow()).click();
+		iframe.getIframe().find(iframe.tryNow()).click({ force: true });
 		cy.wait("@authPagesAPI");
 	});
 });
