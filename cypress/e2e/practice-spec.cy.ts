@@ -6,7 +6,7 @@ const iframe = new iFrame();
 
 let mouseHoverOptions = ["Top", "Reload"];
 let socialMediaLinks = [
-	"https://www.facebook.com/easygenerator/",
+	"https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Feasygenerator%2F",
 	"https://x.com/i/flow/login?redirect_after_login=%2Feasygenerator",
 	"https://www.youtube.com/user/easygenerator"
 ];
