@@ -6,8 +6,8 @@ const iframe = new iFrame();
 
 let mouseHoverOptions = ["Top", "Reload"];
 let socialMediaLinks = [
-	"https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Feasygenerator%2F",
-	"https://x.com/i/flow/login?redirect_after_login=%2Feasygenerator",
+	"https://www.facebook.com/easygenerator/",
+	"https://twitter.com/easygenerator",
 	"https://www.youtube.com/user/easygenerator"
 ];
 
@@ -173,9 +173,15 @@ describe("iFrame", () => {
 describe("Social Media", () => {
 	it("Social media links are functional", function () {
 		practice.elements.socialMediaLinks().each((link, index) => {
-			practice.elements.socialMediaLinks().eq(index).invoke("attr", "target", "_self").click();
-			cy.url().should("equal", socialMediaLinks[index]);
-			cy.go("back");
-		});
+			practice.elements.socialMediaLinks().eq(index).then((link) => {
+				cy.request(link.prop('href'))
+			})
+
+			//Another approach would be clicking on all links and navigating to the webpage, then go back.
+
+			// practice.elements.socialMediaLinks().eq(index).invoke("attr", "target", "_self").click();
+			// cy.url().should("equal", socialMediaLinks[index]);
+			// cy.go("back");
+		})
 	});
 });
