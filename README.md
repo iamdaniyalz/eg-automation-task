@@ -35,4 +35,5 @@
 [![ci](https://github.com/iamdaniyalz/eg-automation-task/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/iamdaniyalz/eg-automation-task/actions/workflows/ci.yml)
 
 ### Results
-![image](https://user-images.githubusercontent.com/52025650/229377012-fde9f4af-9705-45d1-8872-6dd6f8965ec0.png)
+<img width="642" alt="image" src="https://github.com/iamdaniyalz/eg-automation-task/assets/52025650/c3e4b27a-a0ed-4ad0-9bf0-d163e12ba51c">
+
